@@ -8,9 +8,9 @@ const rl = readline.createInterface({
 
 const validator = require('validator');
 
-rl.question('What is your name?', (name) => {
-    rl.question('What is your email?', (email) =>{
-        rl.question('What is your phone number?', (number) =>{
+rl.question('What is your name? ', (name) => {
+    rl.question('What is your email? ', (email) =>{
+        rl.question('What is your phone number? ', (number) =>{
 
             console.log(`\nName : ${name}`)
 
